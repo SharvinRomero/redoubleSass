@@ -1,0 +1,142 @@
+.mt-ext {
+    margin-top: 40%;
+}
+
+.gallery-img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+/*área de grilla*/
+.gallery-grid {
+    grid-area: gallery;
+}
+
+/*área*/
+
+.container-grid {
+    display: grid;
+    gap: 16px;
+    grid-template-areas:
+        "gallery";
+}
+
+.container-father {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 16px;
+    justify-items: center;
+    margin: 0px 16px 16px 16px;
+    padding: 1.5em;
+}
+
+.pics img {
+    display: flex;
+    width: auto;
+    height: 128px;
+}
+
+
+/* Media Query */
+
+
+@media (min-width: 576px) {
+
+    .cover {
+        width: auto;
+        height: 300px;
+    }
+
+    .container-grid {
+        margin: 0;
+        grid-template-areas:
+            "galeria galeria";
+    }
+
+    .pics {
+        img {
+        display: flex;
+        height: 128px;}
+    }
+
+    .gallery-img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .mt-ext {
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .cover {
+        width: auto;
+        height: 250px;
+    }
+
+    .container-grid {
+        margin-bottom: 1.5em;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "gallery gallery gallery gallery";
+    }
+
+    .container-father {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin: 0px 16px 16px 16px;
+        padding: 1.5em;
+    }
+
+    .pics img {
+        display: flex;
+        height: 128px;
+    }
+
+    .gallery-img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .mt-ext {
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .cover {
+        width: auto;
+        height: 250px;
+    }
+
+    .container-father {
+        padding: 1.5em;
+        grid-template-columns: 1fr 1fr;
+        margin: 0px 16px 16px 16px;
+    }
+
+    .pics img {
+        display: flex;
+        height: 128px;
+    }
+
+    .gallery-img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .mt-ext {
+        margin-top: 10%;
+    }
+}

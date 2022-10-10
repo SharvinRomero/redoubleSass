@@ -1,0 +1,29 @@
+/* Reseteo de css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg, rgba(255, 156, 11, 1) 0%, rgba(255, 122, 11, 1) 100%) no-repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: $text;
+}
+
+ul {
+    list-style-type: none;
+}
+
+i {
+    color: white;
+}

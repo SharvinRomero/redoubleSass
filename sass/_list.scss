@@ -1,0 +1,33 @@
+.navegador-list {
+    color: #1A1A1A !important;
+    list-style-type: none;
+    text-decoration: none;
+
+    a {
+        color: #1A1A1A !important;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $primary !important;
+        transition: 0.3s;
+        border-bottom: $primary solid 1px;
+    }
+}
+
+.list-font li {
+    font-size: smaller;
+}
+
+
+.bullets li {
+    list-style: disc;
+}
+
+/* hover */
+.navegador-list a:hover {
+    color: $primary !important;
+    transition: 0.3s;
+    border-bottom: $primary solid 1px;
+}

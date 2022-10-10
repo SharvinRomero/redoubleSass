@@ -1,0 +1,34 @@
+.bg-grey {
+    background-color: $grey;
+}
+
+.bg-soft {
+    background-color: $soft;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-orange {
+    background: linear-gradient(180deg, rgba(255, 156, 11, 1) 0%, rgba(255, 122, 11, 1) 100%) no-repeat;
+}
+
+.bg-texture {
+    background-image: url(../img/texture.svg);
+    background-repeat: repeat;
+    background-size: 7%;
+    object-fit: cover;
+}
+
+.bg-construction {
+    background-image: url(../img/construction.jpg);
+    background-repeat: repeat;
+    object-fit: cover;
+}
+
+/*hover*/
+.bg-orange:hover {
+    background: black;
+    color: white;
+}

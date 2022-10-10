@@ -1,0 +1,23 @@
+.border-grey {
+    border-bottom: 1px dashed $grey;
+}
+
+.border-rounded-8 {
+    border-width: 8px;
+    border-radius: 8px;
+}
+
+.border-black {
+    border-color: black;
+    background-color: black;
+}
+
+.rounded-8 {
+    border-radius: 8px;
+    img {
+        border-radius: 4px;
+    }
+    iframe {
+        border-radius: 4px;
+    }
+}
