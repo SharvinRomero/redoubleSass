@@ -11,14 +11,3 @@
     background-color: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(20px);
 }
-
-/*hover*/
-.card-move section:hover {
-    transition: 0.3s;
-    transform: rotate(2deg) scale(1.03);
-    box-shadow: 5px 5px 5px rgba(26, 26, 26, 0.2);
-}
-
-.card-shadows section:hover {
-    box-shadow: 0px 5px 10px rgba(26, 26, 26, 0.5);
-}

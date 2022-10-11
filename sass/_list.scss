@@ -24,10 +24,3 @@
 .bullets li {
     list-style: disc;
 }
-
-/* hover */
-.navegador-list a:hover {
-    color: $primary !important;
-    transition: 0.3s;
-    border-bottom: $primary solid 1px;
-}

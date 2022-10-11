@@ -12,6 +12,11 @@
 
 .bg-orange {
     background: linear-gradient(180deg, rgba(255, 156, 11, 1) 0%, rgba(255, 122, 11, 1) 100%) no-repeat;
+
+    &:hover {
+        background: black;
+        color: white;
+    }
 }
 
 .bg-texture {
@@ -25,10 +30,4 @@
     background-image: url(../img/construction.jpg);
     background-repeat: repeat;
     object-fit: cover;
-}
-
-/*hover*/
-.bg-orange:hover {
-    background: black;
-    color: white;
 }
