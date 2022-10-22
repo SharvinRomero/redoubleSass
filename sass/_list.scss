@@ -7,12 +7,12 @@
         color: #1A1A1A !important;
         list-style-type: none;
         text-decoration: none;
-    }
 
-    a:hover {
-        color: $primary !important;
-        transition: 0.3s;
-        border-bottom: $primary solid 1px;
+        &:hover {
+            color: $primary !important;
+            transition: 0.3s;
+            border-bottom: $primary solid 1px;
+        }
     }
 }
 

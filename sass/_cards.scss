@@ -15,12 +15,22 @@
 
 
 /*hover*/
-.card-move section:hover {
-    transition: 0.3s;
-    transform: rotate(2deg) scale(1.03);
-    box-shadow: 5px 5px 5px rgba(26, 26, 26, 0.2);
+.card-move {
+    padding-left: 0px;
+    padding-right: 0px;
+
+    &:hover {
+        transition: 0.3s;
+        transform: rotate(2deg) scale(1);
+        box-shadow: 5px 5px 5px rgba(26, 26, 26, 0.2);
+    }
 }
 
-.card-shadows section:hover {
-    box-shadow: 0px 5px 10px rgba(26, 26, 26, 0.5);
+
+.card-shadows {
+    box-shadow: 0px 5px 10px rgba(26, 26, 26, 0.2);
+
+    &:hover {
+        box-shadow: 0px 5px 10px rgba(26, 26, 26, 0.5);
+    }
 }
