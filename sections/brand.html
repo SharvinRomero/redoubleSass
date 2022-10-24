@@ -19,44 +19,6 @@
 <body>
     <!-- Navbar -->
     <header class="bg-texture">
-        <nav class="navbar navbar-expand-lg blur fixed-top navbar-light">
-            <div class="container-xxl container-md container-sm nav-logo">
-                <a class="navbar-brand" href="../index.html"><img src="../img/redoubleLogo.svg"
-                        alt="logo redouble color naranja" height="30vh" class="d-inline-block align-text-top"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse navegador-list" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Juegos
-                            </a>
-                            <ul class="dropdown-menu blur2" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./gamesFamily.html">Familiar</a></li>
-                                <li><a class="dropdown-item" href="./gamesParty.html">Fiesta</a></li>
-                            </ul>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./new.html">Nuevos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./brand.html">Editoriales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contact.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex visually-hidden">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-
         <!-- Banner -->
         <section class="container-xxl container-md container-sm px-0 mt-5">
             <div id="carouselExampleSlidesOnly" class="carousel slide mt-7" data-bs-ride="carousel">
@@ -69,20 +31,57 @@
             </div>
             <h1 class="fs-2 text-center text-white fw-light bg-black m-0 py-2">Las marcas más populares</h1>
         </section>
-
     </header>
+
+    <nav class="navbar navbar-expand-lg blur fixed-top navbar-light">
+        <div class="container-xxl container-md container-sm nav-logo">
+            <a class="navbar-brand" href="../index.html"><img src="../img/redoubleLogo.svg"
+                    alt="logo redouble color naranja" height="30vh" class="d-inline-block align-text-top"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navegador-list" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Juegos
+                        </a>
+                        <ul class="dropdown-menu blur2" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./gamesFamily.html">Familiar</a></li>
+                            <li><a class="dropdown-item" href="./gamesParty.html">Fiesta</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./new.html">Nuevos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./brand.html">Editoriales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex visually-hidden">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
     <!-- Brand -->
     <main class="bg-texture">
         <section class="container-xxl container-md container-sm bg-white px-0">
-            <div class="border-bottom border-dark ps-3 pt-3">
+            <article class="border-bottom border-dark ps-3 pt-3">
                 <h2 class="fs-3">Marcas</h2>
-            </div>
+            </article>
 
             <section class="gallery-grid bg-soft pb-3">
-                <section class="container-father">
+                <div class="container-father">
 
-                    <div class="pics shadow rounded-8 p-3 bg-white" id="mattelBrand">
+                    <article class="pics shadow rounded-8 p-3 bg-white" id="mattelBrand">
                         <img src="../img/logoMattel.png" alt="logo mattel esfera dientada roja con letras en blanco"
                             class="col-4">
                         <p>Mattel, Inc. es una empresa multinacional estadounidense de entretenimiento y fabricación de
@@ -109,9 +108,9 @@
                             <img src="../img/gameOno.jpg" class="p-1"
                                 alt="ono 99, juego de cartas basados en números para multiples jugadores con colores basicos">
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="pics shadow rounded-8 p-3 bg-white" id="hasbroBrand">
+                    <article class="pics shadow rounded-8 p-3 bg-white" id="hasbroBrand">
                         <img src="../img/logoHasbro.png"
                             alt="Logo hasbro ovalo de color azul con texto de color blanco">
                         <p>Hasbro, Inc. es una multinacional estadounidense de juguetes y juegos de mesa. Es uno de los
@@ -129,9 +128,9 @@
                             <img src="../img/gameGuessWho.jpg" class="p-1"
                                 alt="guess who, juego de cartas para dos jugadores donde se hacen preguntas hasta hacer coincidencia, ilustraciones de tipo caricaturas">
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="pics shadow rounded-8 p-3 bg-white" id="gameWrightBrand">
+                    <article class="pics shadow rounded-8 p-3 bg-white" id="gameWrightBrand">
                         <img src="../img/logoGameWright.png" alt="logo game wright bufon con varios colores">
                         <p>Con sede en Newton, Massachussetts, Gamewright fue fundada en 1994 por cuatro padres cuyos
                             hijos
@@ -150,9 +149,9 @@
                             <img src="../img/gameSushGoParty.jpg" class="p-1"
                                 alt="sushi go party, juego de cartas con tematica de comestibles para varios jugadores con colores brillantes">
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="pics shadow rounded-8 p-3 bg-white" id="bureauDeJuegosBrand">
+                    <article class="pics shadow rounded-8 p-3 bg-white" id="bureauDeJuegosBrand">
                         <img src="../img/logoBureauDeJuegos.png"
                             alt="logo bureau de juegos mano con pieza de ajedrez en blanco y negro">
                         <p>En 2013, Emmanuel Rabell y Michel Fischman fundaron Bureau de Juegos como la primera empresa
@@ -169,9 +168,9 @@
                             <img src="../img/gameDungeons&Drinks.jpg" class="p-1"
                                 alt="dungeons & drinks, juegos para adultos con tematicas basadas en bebidas alcoholicas con lenguaje obsceno y para multiples jugadores">
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="pics shadow rounded-8 p-3 bg-white" id="tranjisBrand">
+                    <article class="pics shadow rounded-8 p-3 bg-white" id="tranjisBrand">
                         <img src="../img/logoTranjis.png" alt="logo de tranjis tiburoncito con fondo rosa">
                         <p>Tranjis Games es una Editorial de Juegos de Mesa dedicada a la creación y desarrollo de
                             juegos.
@@ -188,16 +187,16 @@
                             <img src="../img/gameDesplumados.jpg" class="p-1"
                                 alt="desplumados, juego divertido para seis jugadores basado en la recopilación, con colores complementarios">
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="pics shadow rounded-8 p-3 bg-white" id="tranjisBrand">
+                    <article class="pics shadow rounded-8 p-3 bg-white" id="tranjisBrand">
                         <img src="../img/astronut2.svg" alt="mastacota astronauta posición moderna de triunfo"
                             height="250px" width="auto">
                         <p class="fs-3 fw-bold mt-5">Próximamente más marcas con nuevos juegos para la toda familia y las fiestas.
                         </p>
-                    </div>
+                    </article>
 
-                </section>
+                </div>
             </section>
 
         </section>

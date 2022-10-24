@@ -19,45 +19,6 @@
 <body>
     <!-- Navbar -->
     <header class="bg-texture">
-        <nav class="navbar navbar-expand-lg blur fixed-top navbar-light">
-            <div class="container-xxl container-md container-sm nav-logo">
-                <a class="navbar-brand" href="./index.html"><img src="./img/redoubleLogo.svg"
-                        alt="logo redouble color naranja" height="30vh" class="d-inline-block align-text-top"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse navegador-list" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Juegos
-                            </a>
-                            <ul class="dropdown-menu blur2" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./sections/gamesFamily.html">Familiar</a></li>
-                                <li><a class="dropdown-item" href="./sections/gamesParty.html">Fiesta</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./sections/new.html">Nuevos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./sections/brand.html">Editoriales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./sections/contact.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex visually-hidden">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-
         <!-- Carousel -->
         <section class="container-xxl container-md container-sm px-0 mt-5">
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -117,6 +78,45 @@
         </section>
     </header>
 
+    <nav class="navbar navbar-expand-lg blur fixed-top navbar-light">
+        <div class="container-xxl container-md container-sm nav-logo">
+            <a class="navbar-brand" href="./index.html"><img src="./img/redoubleLogo.svg"
+                    alt="logo redouble color naranja" height="30vh" class="d-inline-block align-text-top"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navegador-list" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Juegos
+                        </a>
+                        <ul class="dropdown-menu blur2" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./sections/gamesFamily.html">Familiar</a></li>
+                            <li><a class="dropdown-item" href="./sections/gamesParty.html">Fiesta</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sections/new.html">Nuevos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sections/brand.html">Editoriales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sections/contact.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex visually-hidden">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
     <!-- News -->
     <main class="bg-texture">
         <article class="container-xxl container-md container-sm bg-white border-grey pb-3 ">
@@ -175,11 +175,11 @@
 
         <!-- Highlights Games -->
         <section class="container-xxl container-md container-sm bg-white px-0">
-            <div class="border-bottom border-dark pt-4 p-2">
+            <article class="border-bottom border-dark pt-4 p-2">
                 <h2 class="fs-4">Selección de juegos destacados</h2>
-            </div>
+            </article>
 
-            <div class="container bg-soft mt-1 pb-4">
+            <section class="container bg-soft mt-1 pb-4">
                 <div class="row row-cols-1 row-cols-xxl-4 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 px-xxl-4 g-3">
 
                     <section class="col">
@@ -387,7 +387,7 @@
                     </section>
 
                 </div>
-            </div>
+            </section>
 
         </section>
 
@@ -454,15 +454,15 @@
 
         <!-- Rating -->
         <section class="container-xxl container-md container-sm bg-white pb-5 ">
-            <div class="border-bottom border-dark pt-4">
+            <article class="border-bottom border-dark pt-4">
                 <h2 class="fs-4">Clasificación</h2>
-            </div>
+            </article>
 
-            <div class="container mt-3 p-0">
+            <section class="container mt-3 p-0">
 
                 <div class="row">
 
-                    <div class="col-lg-4 col-md-5 col-sm-6 py-3">
+                    <article class="col-lg-4 col-md-5 col-sm-6 py-3">
                         <div class="col-xxl-8 col-lg-10 col-md-12 col-sm-12">
                             <div class="rating-pic rating-cont">
                                 <a href="./sections/gamesParty.html#uno">
@@ -482,9 +482,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="col-lg-4 col-md-5 col-sm-6 py-3">
+                    <article class="col-lg-4 col-md-5 col-sm-6 py-3">
                         <div class="col-xxl-8 col-lg-10 col-md-12 col-sm-12">
                             <div class="rating-pic rating-cont">
                                 <a href="./sections/gamesParty.html#virus">
@@ -504,9 +504,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="col-lg-4 col-md-5 col-sm-6 py-3">
+                    <article class="col-lg-4 col-md-5 col-sm-6 py-3">
                         <div class="col-xxl-8 col-lg-10 col-md-12 col-sm-12">
                             <div class="rating-pic rating-cont">
                                 <a href="./sections/gamesFamily.html#monopolyDeal">
@@ -526,9 +526,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                </div>
+                </section>
 
         </section>
     </main>

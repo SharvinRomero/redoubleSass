@@ -18,45 +18,6 @@
 <body>
     <!-- Navbar -->
     <header class="bg-texture">
-        <nav class="navbar navbar-expand-lg blur fixed-top navbar-light">
-            <div class="container-xxl container-md container-sm nav-logo">
-                <a class="navbar-brand" href="../index.html"><img src="../img/redoubleLogo.svg"
-                        alt="logo redouble color naranja" height="30vh" class="d-inline-block align-text-top"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse navegador-list" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Juegos
-                            </a>
-                            <ul class="dropdown-menu blur2" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./gamesFamily.html">Familiar</a></li>
-                                <li><a class="dropdown-item" href="./gamesParty.html">Fiesta</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./new.html">Nuevos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./brand.html">Editoriales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contact.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex visually-hidden">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-
         <!-- Carousel -->
         <section class="container-xxl container-md container-sm px-0 mt-5">
             <div id="carouselExampleSlidesOnly" class="carousel slide mt-7" data-bs-ride="carousel">
@@ -69,8 +30,46 @@
             </div>
             <h1 class="fs-2 text-center text-white fw-light bg-black m-0 py-2">Juegos de cartas más búscados</h1>
         </section>
-
     </header>
+
+    <nav class="navbar navbar-expand-lg blur fixed-top navbar-light">
+        <div class="container-xxl container-md container-sm nav-logo">
+            <a class="navbar-brand" href="../index.html"><img src="../img/redoubleLogo.svg"
+                    alt="logo redouble color naranja" height="30vh" class="d-inline-block align-text-top"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navegador-list" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Juegos
+                        </a>
+                        <ul class="dropdown-menu blur2" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./gamesFamily.html">Familiar</a></li>
+                            <li><a class="dropdown-item" href="./gamesParty.html">Fiesta</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./new.html">Nuevos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./brand.html">Editoriales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex visually-hidden">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
     <!-- Releases -->
     <main class="bg-texture">
@@ -86,10 +85,10 @@
             </h3>
 
             <!-- Sushi Go -->
-            <section class="container p-4 border-grey" id="sushiGo">
-                <div class="row justify-content-md-end">
+            <article class="container p-4 border-grey" id="sushiGo">
+                <section class="row justify-content-md-end">
 
-                    <div class="col-xxl-3 col-lg-3 col-md-4 col-sm-12 g-2 ps-md-3">
+                    <section class="col-xxl-3 col-lg-3 col-md-4 col-sm-12 g-2 ps-md-3">
                         <img src="../img/gameSushGo.png" alt="sushi go empaque metalico" class="w-100 contain-img">
                         <p class="fs-5 fw-bold mt-4">Galería</p>
                         <!-- Button trigger modal -->
@@ -97,10 +96,10 @@
                             <img src="../img/sushiGoGallery1.jpg" alt="galleria sushi go" class="gallery-img">
                         </button>
                         <p class=" text-center small ">presiona la imagen para ver</p>
-                    </div>
+                    </section>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="sushiGoModal" tabindex="-1" aria-labelledby="sushiGoModalLabel"
+                    <section class="modal fade" id="sushiGoModal" tabindex="-1" aria-labelledby="sushiGoModalLabel"
                         aria-hidden="true">
                         <div class="modal-dialog modal-xl modal-dialog-centered">
                             <div class="modal-content">
@@ -145,9 +144,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
-                    <div class="col-xxl-6 col-lg-6 col-md-8 col-sm-12 g-2">
+                    <section class="col-xxl-6 col-lg-6 col-md-8 col-sm-12 g-2">
                         <h4>Sushi Go!</h4>
                         <ul class="nav navegador-list">
                             <li class="nav-item fw-bold me-2">Editorial:</li>
@@ -175,7 +174,7 @@
                             </li>
                         </ul>
 
-                        <div class="pt-2 pe-2">
+                        <section class="pt-2 pe-2">
                             <p class="lh-sm">En el juego de cartas de sushi superrápido Sushi Go!, estás comiendo en un
                                 restaurante de sushi y tratando de conseguir la mejor combinación de platos de sushi a
                                 medida que pasan. Gana puntos por recolectar la mayor cantidad de rollos de sushi o
@@ -194,13 +193,12 @@
                                 bloqueos desagradables. ¡Ronda tras ronda, también debes mantener la vista en el
                                 objetivo de tener la mayor cantidad de cartas de budín al final del juego!
                             </p>
-                        </div>
+                        </section>
 
-                    </div>
+                    </section>
 
-                    <div class="col-xxl-3 col-lg-3 col-md-8 col-sm-12 g-2">
-
-                        <div class="col rounded-8">
+                    <section class="col-xxl-3 col-lg-3 col-md-8 col-sm-12 g-2">
+                        <section class="col rounded-8">
                             <h5>Revisión del juego</h5>
                             <div class="ratio ratio-4x3">
                                 <iframe width="1024" height="768" src="https://www.youtube.com/embed/dW5RcOVyFVw"
@@ -208,17 +206,17 @@
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                             </div>
+                        </section>
+                    </section>
 
-                        </div>
-                    </div>
-                </div>
-            </section>
+                </section>
+            </article>
 
             <!-- Toma 6 -->
-            <section class="container p-4 border-grey" id="toma6">
-                <div class="row justify-content-md-end">
+            <article class="container p-4 border-grey" id="toma6">
+                <section class="row justify-content-md-end">
 
-                    <div class="col-xxl-3 col-lg-3 col-md-4 col-sm-12 g-2 ps-md-3">
+                    <section class="col-xxl-3 col-lg-3 col-md-4 col-sm-12 g-2 ps-md-3">
                         <img src="../img/gameToma6.png" alt="Toma 6 empaque" class="w-100 contain-img">
                         <p class="fs-5 fw-bold mt-4">Galería</p>
                         <!-- Button trigger modal -->
@@ -226,10 +224,10 @@
                             <img src="../img/toma6Gallery1.jpg" alt="galleria toma 6" class="gallery-img">
                         </button>
                         <p class=" text-center small ">presiona la imagen para ver</p>
-                    </div>
+                    </section>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="toma6Modal" tabindex="-1" aria-labelledby="toma6ModalLabel"
+                    <section class="modal fade" id="toma6Modal" tabindex="-1" aria-labelledby="toma6ModalLabel"
                         aria-hidden="true">
                         <div class="modal-dialog modal-xl modal-dialog-centered">
                             <div class="modal-content">
@@ -274,9 +272,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
-                    <div class="col-xxl-6 col-lg-6 col-md-8 col-sm-12 g-2">
+                    <section class="col-xxl-6 col-lg-6 col-md-8 col-sm-12 g-2">
                         <h4>Toma 6</h4>
                         <ul class="nav navegador-list">
                             <li class="nav-item fw-bold me-2">Editorial:</li>
@@ -304,7 +302,7 @@
                             </li>
                         </ul>
 
-                        <div class="pt-2 pe-2">
+                        <section class="pt-2 pe-2">
                             <p class="lh-sm">
                                 Para jugar, se barajan las cartas de 104 números, se colocan cuatro cartas boca arriba
                                 para comenzar las cuatro filas y luego se reparten diez cartas a cada jugador. Cada
@@ -322,13 +320,12 @@
                                 mientras que 6 nimmt! termina cuando alguien supera los 66). Cuando esto sucede, ¡el
                                 jugador con la menor cantidad de puntos gana!
                             </p>
-                        </div>
+                        </section>
 
-                    </div>
+                    </section>
 
-                    <div class="col-xxl-3 col-lg-3 col-md-8 col-sm-12 g-2">
-
-                        <div class="col rounded-8">
+                    <section class="col-xxl-3 col-lg-3 col-md-8 col-sm-12 g-2">
+                        <section class="col rounded-8">
                             <h5>Revisión del juego</h5>
                             <div class="ratio ratio-4x3">
                                 <iframe width="1024" height="768" src="https://www.youtube.com/embed/XTTGc52KYZY"
@@ -337,17 +334,17 @@
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                             </div>
+                        </section>
+                    </section>
 
-                        </div>
-                    </div>
-                </div>
-            </section>
+                </section>
+            </article>
 
             <!-- Phase 10 -->
-            <section class="container p-4 border-grey" id="phase10">
-                <div class="row justify-content-md-end">
+            <article class="container p-4 border-grey" id="phase10">
+                <section class="row justify-content-md-end">
 
-                    <div class="col-xxl-3 col-lg-3 col-md-4 col-sm-12 g-2 ps-md-3">
+                    <section class="col-xxl-3 col-lg-3 col-md-4 col-sm-12 g-2 ps-md-3">
                         <img src="../img/gamePhase10.png" alt="Toma 6 empaque" class="w-100 contain-img">
                         <p class="fs-5 fw-bold mt-4">Galería</p>
                         <!-- Button trigger modal -->
@@ -355,10 +352,10 @@
                             <img src="../img/phase10Gallery1.jpg" alt="galleria de imagen phase 10" class="gallery-img">
                         </button>
                         <p class=" text-center small ">presiona la imagen para ver</p>
-                    </div>
+                    </section>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="phase10Modal" tabindex="-1" aria-labelledby="phase10ModalLabel"
+                    <section class="modal fade" id="phase10Modal" tabindex="-1" aria-labelledby="phase10ModalLabel"
                         aria-hidden="true">
                         <div class="modal-dialog modal-xl modal-dialog-centered">
                             <div class="modal-content">
@@ -403,9 +400,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
-                    <div class="col-xxl-6 col-lg-6 col-md-8 col-sm-12 g-2">
+                    <section class="col-xxl-6 col-lg-6 col-md-8 col-sm-12 g-2">
                         <h4>Phase 10</h4>
                         <ul class="nav navegador-list">
                             <li class="nav-item fw-bold me-2">Editorial:</li>
@@ -433,7 +430,7 @@
                             </li>
                         </ul>
 
-                        <div class="pt-2 pe-2">
+                        <section class="pt-2 pe-2">
                             <p class="lh-sm">
                                 Un juego de cartas tipo rummy donde los jugadores compiten por ser los primeros en
                                 terminar de completar las diez fases. Las fases incluyen la recopilación de series de
@@ -441,13 +438,12 @@
                                 primer jugador que termine de completar la décima fase gana. En caso de empate, gana el
                                 jugador con el menor número de puntos.
                             </p>
-                        </div>
+                        </section>
 
-                    </div>
+                    </section>
 
-                    <div class="col-xxl-3 col-lg-3 col-md-8 col-sm-12 g-2">
-
-                        <div class="col rounded-8">
+                    <section class="col-xxl-3 col-lg-3 col-md-8 col-sm-12 g-2">
+                        <section class="col rounded-8">
                             <h5>Revisión del juego</h5>
                             <div class="ratio ratio-4x3">
                                 <iframe width="1024" height="768" src="https://www.youtube.com/embed/IWJUxLfuDic"
@@ -456,17 +452,18 @@
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                             </div>
+                        </section>
 
-                        </div>
-                    </div>
-                </div>
-            </section>
+                    </section>
+
+                </section>
+            </article>
 
             <!-- Monopoly Deal -->
-            <section class="container p-4" id="monopolyDeal">
-                <div class="row justify-content-md-end">
+            <article class="container p-4" id="monopolyDeal">
+                <section class="row justify-content-md-end">
 
-                    <div class="col-xxl-3 col-lg-3 col-md-4 col-sm-12 g-2 ps-md-3">
+                    <section class="col-xxl-3 col-lg-3 col-md-4 col-sm-12 g-2 ps-md-3">
                         <img src="../img/gameMonopolyDeal.png" alt="monopoly deal empaque" class="w-100 contain-img">
                         <p class="fs-5 fw-bold mt-4">Galería</p>
                         <!-- Button trigger modal -->
@@ -474,10 +471,10 @@
                             <img src="../img/monopolyDealGallery1.jpg" alt="monopoly deal galeria" class="gallery-img">
                         </button>
                         <p class=" text-center small ">presiona la imagen para ver</p>
-                    </div>
+                    </section>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="monopolyDealModal" tabindex="-1"
+                    <section class="modal fade" id="monopolyDealModal" tabindex="-1"
                         aria-labelledby="monopolyDealModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl modal-dialog-centered">
                             <div class="modal-content">
@@ -522,9 +519,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
-                    <div class="col-xxl-6 col-lg-6 col-md-8 col-sm-12 g-2">
+                    <section class="col-xxl-6 col-lg-6 col-md-8 col-sm-12 g-2">
                         <h4>Monopoly Deal</h4>
                         <ul class="nav navegador-list">
                             <li class="nav-item fw-bold me-2">Editorial:</li>
@@ -552,7 +549,7 @@
                             </li>
                         </ul>
 
-                        <div class="pt-2 pe-2">
+                        <section class="pt-2 pe-2">
                             <p class="lh-sm">¡El juego de cartas adictivo y de ritmo rápido en el que tu suerte puede
                                 cambiar en el juego de una carta! Reúna 3 conjuntos completos de propiedades, pero tenga
                                 cuidado con los cobradores de deudas, los tratos forzados y los temidos Deal Breakers,
@@ -574,13 +571,12 @@
                                 de pagos.
                                 Las tarjetas de dinero se utilizan para realizar pagos.
                             </p>
-                        </div>
+                        </section>
 
-                    </div>
+                    </section>
 
-                    <div class="col-xxl-3 col-lg-3 col-md-8 col-sm-12 g-2">
-
-                        <div class="col rounded-8">
+                    <section class="col-xxl-3 col-lg-3 col-md-8 col-sm-12 g-2">
+                        <section class="col rounded-8">
                             <h5>Revisión del juego</h5>
                             <div class="ratio ratio-4x3">
                                 <iframe width="1024" height="768" src="https://www.youtube.com/embed/DAw_EhrbQK0"
@@ -588,10 +584,11 @@
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                        </section>
+                    </section>
+
+                </section>
+            </article>
 
         </section>
     </main>
