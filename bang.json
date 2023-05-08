@@ -1,1 +1,5 @@
-
+{
+    "titulo": "Título de la tarjeta",
+    "imagen": "https://concepto.de/wp-content/uploads/2015/03/paisaje-e1549600034372.jpg",
+    "descripcion": "Descripción de la tarjeta"
+  }
